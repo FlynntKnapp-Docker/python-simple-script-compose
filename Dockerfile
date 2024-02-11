@@ -11,4 +11,4 @@ COPY . .
 RUN chmod +x goodbuy.py
 
 # Define the command to run your script
-# CMD [ "python", "./goodbuy.py" ]
+CMD [ "python", "./goodbuy.py" ]
